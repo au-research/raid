@@ -70,6 +70,7 @@ result:
     succeeded: [
       {
         regAgent: prefix1
+        pagination: ???
         matchingRaids: {
           suggest this should be a summary, not the full raid data, UI
           can then link directly to the landing page of the reg-agent

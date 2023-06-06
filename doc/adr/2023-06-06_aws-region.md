@@ -17,8 +17,9 @@ What region should we use for operating raid.org in AWS?
 
 Recommened us-east-2 (Ohio)
 
-* east coast for closer proximity to EU
-* us-east-2 to avoid instability and resource contention of us-east-1
+* US because all roads lead to Rome
+* East coast for lower latency to EU
+* us-east-2 to avoid instability, cost and resource contention of us-east-1
   * us-east-1 is the "default" region that most examples point to, it 
     generally sees the first rollout of new stuff (which we don't care about)
   * us-east-1 costs the most and has the most resource contention
@@ -38,7 +39,7 @@ Recommened us-east-2 (Ohio)
   rolledout, features tend to be available there earlier than other regions
 * Latency - wherever we use, some places will be futher away than others
 
+
 # Links
 
 * https://aws.amazon.com/about-aws/global-infrastructure/
-* 
